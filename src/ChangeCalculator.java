@@ -28,7 +28,7 @@ public class ChangeCalculator {
 		int Numquarters = Integer.parseInt(NumberOfquarters);
 
 		// Calculate how much money the user has and save it in a double variable 
-		int Sum = NumNickles * 5 + NumDimes * 10 + Numquarters * 25;
+		double Sum = NumNickles * 0.5 + NumDimes * 0.10 + Numquarters * 0.25;
 		
 		// Tell the user how much money they have
 JOptionPane.showMessageDialog(null, "You have "+ Sum + " cents");
